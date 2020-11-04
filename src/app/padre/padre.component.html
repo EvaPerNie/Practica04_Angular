@@ -1,0 +1,6 @@
+<div id="padre">
+    <div class="botonera">
+        <button type="button" (click)="ocultaHijos()">MOSTRAR / OCULTAR</button>
+    </div>
+    <hijo [hidden]="visibilidad" *ngFor="let iteracion of iteraciones"></hijo>
+</div>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Practica04"
+    }
+  },
+  "defaultProject": "Practica04",
+  "cli": {
+    "analytics": false
+  }
 }
